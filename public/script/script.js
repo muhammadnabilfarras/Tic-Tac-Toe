@@ -483,5 +483,5 @@ const displayController = (() => {
     }
 })();
 
-// To highlight the box at start
+// Me-highlight jalan 'X'
 gameController.changeSign('X')
