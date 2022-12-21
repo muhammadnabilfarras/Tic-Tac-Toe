@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="stylesheet" href="./public/assets/css/animation.css">
+</head>
+<body>
+    <div class="win-condition">
+        <p class="winner-text hide">The Winner is...</p>
+        <p class="x-text sign hide">X</p>
+        <p class="o-text sign hide">O</p>
+        <p class="winner-text draw hide">It's a draw</p>
+    </div>
+
+    <div class="card">
+        <div class="item difficulty">
+            <form action="" class="form">
+                <h2>Difficulty</h2>
+                <select name="levels" id="levels">
+                    <option value="easy">Easy Peasy</option>
+                    <option value="medium">Medium Rare</option>
+                    <option value="hard">Jeff Hardy</option>
+                    <option value="unbeatable">Elden Ring</option>
+                </select>
+            </form>
+            <div class="item player">
+                <button class="btn btn-p x">X</button>
+                <button class="btn btn-p o">O</button>
+            </div>
+        </div>
+        
+        <div class="item board">
+            <button class="field"><p></p></button>
+            <button class="field"><p></p></button>
+            <button class="field no-right"><p></p></button>
+            <button class="field"><p></p></button>
+            <button class="field"><p></p></button>
+            <button class="field no-right"><p></p></button>
+            <button class="field no-bottom"><p></p></button>
+            <button class="field no-bottom"><p></p></button>
+            <button class="field no-bottom no-right"><p></p></button>
+        </div>
+        <div class="item reset">
+            <button class="btn restart">Restart</button>
+        </div>
+    </div>
+</body>
+<script src="./public/script/script.js"></script>
+</html>
